@@ -20,11 +20,12 @@
 		<p class="display-expression">AngularJs expression 2*5+2 = {{2*5+2}}</p>
 		<p class="display-expression">Using angular js expression to bind angularJs data to Html {{name}}</p>
 	</div>
+	<!-- Using AngularJs model to change css properties -->
 	<div class="container" ng-app="" ng-init="color='#4CAF50'">
 		<h2>Type the color-name or color-code and see the change of color</h2>
 		<input class="modify-input" style="background-color:{{color}}" ng-model="color" value="{{color}}">
 	</div>
-	
+	<a class="hyperlink-container" href="AngularJsStrings.html">AngularJs Strings</a>
 	<!-- ng-app directive defines app named angularApp -->
 	<!-- ng-controller directive defines controllers,angularController is angular controller , it controls angular applications -->
 	<div class="container" ng-app="angularApp" ng-controller="angularController">

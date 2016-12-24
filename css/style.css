@@ -22,3 +22,11 @@
 	padding: 3px;
 	text-align: center;
 }
+.hyperlink-container{
+	display: block;
+	width: 30%;
+	margin: 10px;
+	padding: 5px;
+	color: violet;
+	background-image: url(../images/site_back.png);
+}
