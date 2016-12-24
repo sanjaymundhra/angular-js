@@ -16,4 +16,9 @@
 	border-radius: 5px;
 	width: 50%;
 	text-align: center;
+	margin-bottom: 5px;
+}
+.modify-input{
+	padding: 3px;
+	text-align: center;
 }
