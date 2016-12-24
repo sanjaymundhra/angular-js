@@ -1,9 +1,20 @@
 <html>
 <head>
 	<title>Learn angularjs</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	
 </head>
 <body>
-
+	<!-- ng-app directive defines an AngularJs application -->
+	<div ng-app="">
+		<h2>Type your name in the box and see magic of AngularJs</h2>
+		<p>
+			<!-- ng-model directive binds the value of tag(input) to application data -->
+			Name: <input type="text" ng-model="name">
+		</p>
+		<!-- ng-bind directive binds application data to html view -->
+		<p class="display-data" ng-bind="name"></p>
+	</div>
 </body>
 </html>
